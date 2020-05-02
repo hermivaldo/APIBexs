@@ -8,6 +8,7 @@ Projeto desenvolvido em C# com .Net Core 3.1, Entity Framework InMemory, Swagger
 * Banco inMemory apenas para facilitar não criar mais um container docker
 * Queria criar algo que não tivesse nenhum vínculo com o que trabalhava até mesmo para testar meus conhecimentos.
 * Agradeço pela oportunidade e como qualquer projeto sempre pode haver melhorias.
+* Testes estão no outro projeto.
 
 ## Começando
 
@@ -37,7 +38,7 @@ docker images
 bexsapi      latest     63ed9738f768  About a minute ago   232MB
 ```
 
-Caso a imagem criada execute o comando:
+Com a imagem criada execute o comando:
 
 ```
 docker run -p 9090:80 apibexs:latest 
