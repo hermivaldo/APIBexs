@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BexsAPI", "BexsAPI.csproj", "{7AB8A23D-9B9F-474E-AD91-E8A3E0D69B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BexsAPITeste", "..\BexsAPITeste\BexsAPITeste.csproj", "{60D8897B-CE4F-4120-A1AC-6BA7E7740104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AB8A23D-9B9F-474E-AD91-E8A3E0D69B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB8A23D-9B9F-474E-AD91-E8A3E0D69B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB8A23D-9B9F-474E-AD91-E8A3E0D69B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB8A23D-9B9F-474E-AD91-E8A3E0D69B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D8897B-CE4F-4120-A1AC-6BA7E7740104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8897B-CE4F-4120-A1AC-6BA7E7740104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8897B-CE4F-4120-A1AC-6BA7E7740104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8897B-CE4F-4120-A1AC-6BA7E7740104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4F516F4-291B-4063-92CB-EF6F9FFB3DDF}
+	EndGlobalSection
+EndGlobal
