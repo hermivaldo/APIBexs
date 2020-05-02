@@ -1,4 +1,4 @@
-# APIBex
+# APIBexs
  Projeto para avaliação
 
 BexsAPI - projeto que contem a API Web.
