@@ -23,12 +23,17 @@ namespace BexsAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(options =>
+            services.AddCors(c =>
             {
-                options.AddDefaultPolicy
-            (builder =>
-            { builder.AllowAnyOrigin(); });
+                c.AddPolicy("AllowOrigin", options =>
+                {
+                    options.AllowAnyOrigin();
+                    options.AllowAnyHeader();
+                    options.AllowAnyMethod();
+                }
+                ) ;
             });
+
             services.AddDbContext<Repository.Repository>(opt =>
                opt.UseInMemoryDatabase("PerguntasDB"));
 
@@ -85,6 +90,7 @@ namespace BexsAPI
             {
                 options.AllowAnyOrigin();
                 options.AllowAnyMethod();
+                options.AllowAnyHeader();
             });
 
             app.UseEndpoints(endpoints =>
